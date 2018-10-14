@@ -1,10 +1,13 @@
 
 
-h1 {
-    color: red;
-    font-size: 55;
-    font-family: Times;
-    padding: 0px 50px;
+.headline {
+    color: black;
+    font-size: 50px;
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+    padding: 0px 13px;
+
+
 }
 
 p {
@@ -13,21 +16,33 @@ p {
 
 body {
   font-size: 18;
-  font-family: 'helvatica';
+  font-family: 'helvetica';
+  background-color: #D3D3D3;
+
+
 }
 
 .byline {
  font-style: italic;
  opacity: 0.7;
+ font-size: 18;
+ color:
+ text-align: left;
 }
 
 .dateline {
   font-style: italic;
   opacity: 0.6;
+  text-align: left;
 }
 
 artcle {
-  padding: 10px 60px;
+  padding-left: 40px;
+}
+p {
+  text-align: justify;
+  margin-left: 18px;
+  margin-right: 18px;
 }
 
 img {
@@ -36,10 +51,17 @@ img {
 
 figure {
   margin: 20px 10px;
-  border: 5px solid black;
+  border: 1px dotted black;
 }
 
 figcaption{
   font-style: italic;
-  max-width: 1100px;
+  max-width: 720px;
+  font-size: 16;
+  opacity: 0.9;
+
+}
+
+.readmore {
+  border: 1px, solid, black;
 }
