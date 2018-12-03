@@ -1,5 +1,6 @@
 .container {
   border-top: 35px solid #6441a5;
+  /*border-bottom: 5px solid #6441a5; */
   /* border-right: 5px solid #6441a5; --> */
   /* border-left: 5px solid #6441a5; */
 }
@@ -9,6 +10,7 @@
   background-color: #6441a5;
   background-position: center;
   /*margin: 20px 20px;*/
+  margin-bottom: 0px;
   padding-left: 20px;
   padding-bottom: 20px;
   color: white;
@@ -28,4 +30,28 @@ border: 0;
 box-shadow: 0;
 display: inline;
 align: center;
+}
+
+.foots {
+  text-align: right;
+  background-color: #6441a5;
+  background-position: center;
+  /*margin: 20px 20px;*/
+  margin-bottom: -40px;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  padding-top: 20px;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.first-letter {
+  color: #6441a5;
+  float: left;
+  /*font-family: Georgia;*/
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
 }
